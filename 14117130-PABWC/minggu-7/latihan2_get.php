@@ -2,13 +2,7 @@
 <body>
 
 <?php
-if ($_POST) {
-Harga($_POST['nama'] , $_POST['warna']);
-}else{
-Harga($_POST['nama']);
-}
-
-function Harga($nama, $warna="red"){
+function Harga($nama, $color="red"){
   $panjang = strlen($nama);
   $harga = 0;
   if ($panjang > 20) {
@@ -18,8 +12,15 @@ function Harga($nama, $warna="red"){
   }elseif($panjang > 0) {
     $harga = $panjang*300;
   }
-echo 'Harga = '," $harga ", '<br>Warna = <font color="'.$warna.'">' ,"$warna" , '</font><br>';
+echo 'Harga = '," $harga ", '<br>Warna = <font color="'.$color.'">' ,"$color" , '</font><br>';
 }
+
+if ($_POST['warna']=="") {
+Harga($_POST['nama']);
+}else{
+Harga($_POST['nama'] , $_POST['warna']);
+}
+
 ?>
 
 </body>
