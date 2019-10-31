@@ -1,0 +1,147 @@
+#brand {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  color: black;
+  padding-left: 5rem;
+}
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+#black{
+  color: black;
+}
+
+#red{
+  color: #FF0000;
+}
+
+#isiartikel{
+  font-size: 20px;
+  font: times !important;
+  color: #FFFAFA !important;
+  padding: 0 3rem 0 3rem!important;
+}
+
+.container {
+  width: 100% !important;
+  font-size: 64px;
+  height: 600px;
+  margin: 0;
+}
+
+.background {
+  background:url("../images/autumn1.jpg");
+  width:100%;
+}
+
+.homepage{
+  color: rgba(0, 255, 255, 0.85);
+  padding-top: 8rem;
+}
+
+.link {
+  padding: 0rem 1rem 0rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.full{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.right{
+  float: right;
+  padding-right: 5rem;
+}
+
+.profil{
+  padding-left: 20px;
+  float: none;
+  width: 170px;
+  height: 170px;
+}
+
+.img-responsive{
+  width: 100%;
+  height: 100%;
+}
+
+.biodata{
+  font: 30px Times;
+  color: white;
+}
+
+.works{
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.CV{
+  background:url("../images/CV.PNG");
+  width: 560px;
+  height: 790px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgba(255,255,255,0.05);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.artikel {
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+  width: 100% !important;
+  font-size: 64px;
+  height: 400px;
+  margin: 0;
+}
